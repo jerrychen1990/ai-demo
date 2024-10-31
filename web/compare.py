@@ -61,7 +61,6 @@ def load_view():
                     ],
                     temperature=temperature,
                     top_p=top_p,
-                    do_sample=do_sample,
                 )
                 resp = resp.content
                 logger.info(resp)
